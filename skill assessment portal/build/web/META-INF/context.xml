@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/eQuiz">
+<Resource maxWait="-1" maxIdle="10" maxActive="20"
+              username="sourabh"
+              password="123"
+              url="jdbc:oracle:thin:@localhost:1521:xe"
+              driverClassName="oracle.jdbc.OracleDriver"
+              type="javax.sql.DataSource" auth="Container"
+              name="jdbc/myora"/>
+</Context>
